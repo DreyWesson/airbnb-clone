@@ -1,10 +1,10 @@
 import { Button } from "@material-ui/core";
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-import "./Banner.css";
-import Search from "./Search";
+import "./styles/Banner.css";
+import { Search } from "./index";
 
-function Banner() {
+export function Banner() {
   const history = useHistory();
   const [showSearch, setShowSearch] = useState(false);
   return (

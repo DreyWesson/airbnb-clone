@@ -1,9 +1,8 @@
 import React from "react";
-import Banner from "./Banner";
-import Card from "./Card";
-import "./Home.css";
+import { Banner, Card } from "./index";
+import "./styles/Home.css";
 
-function Home() {
+export function Home() {
   return (
     <div className="home">
       <Banner />

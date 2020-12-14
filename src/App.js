@@ -1,9 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
-import Footer from "./Footer";
-import Header from "./Header";
-import Home from "./Home";
-import SearchPage from "./SearchPage";
+import { Footer, Header, Home, SearchPage } from "./components";
 
 function App() {
   return (

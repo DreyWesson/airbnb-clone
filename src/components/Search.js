@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Search.css";
+import "./styles/Search.css";
 import { DateRangePicker } from "react-date-range";
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
@@ -7,7 +7,7 @@ import PeopleIcon from "@material-ui/icons/People";
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 
-function Search() {
+export function Search() {
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
   const selectionRange = {

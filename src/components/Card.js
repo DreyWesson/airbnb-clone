@@ -1,7 +1,7 @@
 import React from "react";
-import "./Card.css";
+import "./styles/Card.css";
 
-function Card({ src, title, desc, price }) {
+export function Card({ src, title, desc, price }) {
   return (
     <div className="card">
       <img src={src} alt="" />
