@@ -21,7 +21,7 @@ export function Header() {
         <SearchIcon />
       </div>
       <div className="header__right">
-        <p>Become a host</p>
+        <p>Become a Host</p>
         <LanguageIcon />
         <ExpandMoreIcon />
         <Avatar />
